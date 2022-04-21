@@ -1,0 +1,18 @@
+RAMMap.exe -accepteula
+RAMMap.exe -Ew
+RAMMap.exe -Em
+
+
+C:\Tools\RAMMap.exe -accepteula && C:\Tools\RAMMap.exe -Ew & C:\Tools\RAMMap.exe -Em
+
+C:\Tools\RAMMap\RAMMap.exe -accepteula && C:\Tools\RAMMap\RAMMap.exe -Ew & C:\Tools\RAMMap\RAMMap.exe -Em
+
+
+
+C:\Tools\RAMMap\RAMMap.exe -accepteula;
+
+
+
+powershell.exe -command "& C:\Tools\RAMMap.exe -Ew; C:\Tools\RAMMap.exe -Em
+
+powershell.exe -command "& C:\Tools\RAMMap\RAMMap.exe -Ew; C:\Tools\RAMMap\RAMMap.exe -Em
